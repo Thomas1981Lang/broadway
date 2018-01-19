@@ -6,6 +6,7 @@ body {
 
 header {
     background-image: url("../images/the-flatiron-building.png");
+    background-size: cover;
 }
 
 h1  {
@@ -30,6 +31,7 @@ p {
 
 a {
     color: white;
+    font-size: 18px;
 }
 
 
@@ -38,6 +40,15 @@ a {
 }
 
 
+footer {
 
+    text-align: left;
+    background: linear-gradient(to right, dimgray, gray);
+    color: white;
+}
+
+footer p {
+    font-size: 11px;
+}
 
 
