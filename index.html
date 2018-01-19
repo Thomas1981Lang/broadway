@@ -10,23 +10,32 @@
 
 <!-- BODY Section   -->
     <body>
-    <!--    HEADER-NAV Section Begin -->
-    <header>
+
+    <!--    HOME and NAV -->
+    <header id="home">
         <h1>Broadway Design</h1>
         <nav>
+            <p><a href="#home">Home</a></p>
+            <p><a href="#process">Process</a></p>
+            <p><a href="#work">Work</a></p>
+            <p><a href="#team">Team</a></p>
+            <p><a href="#contact">Contact</a></p>
+
+            <!--
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#">Process</a></li>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            -->
         </nav>
     </header>
-    <!--    HEADER-NAV Section End -->
 
-    <!--    PROCESS Section Begin -->
-    <div class="process">
+
+    <!--    PROCESS WORK -->
+    <div id="process">
         <h2>Our Process</h2>
 
         <img src="resources/images/identify.svg" alt="The Way is the Finish">
@@ -41,26 +50,39 @@
         <h3>Execute</h3>
         <p>We put everything we have into our work.</p>
     </div>
-    <!--    PROCESS Section End-->
 
-    <!--    STUFF Section Begin-->
-    <section>
-        <h3 class="design">Designed in New York</h3>
+    <!--    PROCESS WORK End-->
 
+    <h3 class="design">Designed in New York</h3>
+
+    <!--    WORK    -->
+    <div id="work">
         <h3>Portfolio</h3>
         <p>Coming Soon</p>
+    </div>
+
+
+    <!--    TEAM    -->
+    <div id="team">
         <h3>Team</h3>
         <p>We're Hiring!</p>
+    </div>
+
+
+    <!--    CONTACT -->
+    <div id="contact">
         <h3>Contact</h3>
         <p>Phone: (555)-555-5555</p>
         <p>E-mail: test&#64;example.com</p>
         <p>Twitter: &#64;test</p>
-    </section>
-    <!--    STUFF Section End-->
+    </div>
+
+
+    <!--    FOOTER  -->
     <footer>
         <p>&COPY; Broadway 2017<script>new Date().getFullYear()>2017&&document.write("-"+new Date().getFullYear());</script>
-            <a href="#">Home</a> <a href="#">About</a> <a href="#">Work</a> <a href="#">Team</a> <a href="#">Contact</a></p>
+            <a href="#home">Home</a> <a href="#process">Process</a> <a href="#work">Work</a> <a href="#team">Team</a> <a href="#contact">Contact</a></p>
     </footer>
-    </body>
 
+    </body>
 </html>
